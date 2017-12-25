@@ -3,7 +3,7 @@
 It helps you to extract a website sitemap xml files from its domain's robots txt file.
 
 You need some tools to run this script. 
-it has dependecy to xmlstartlet command line utilities. You can installation instruction in the following link.
+it has dependecy to xmlstartlet command line utilities. You can check the instruction in the following link.
 http://xmlstar.sourceforge.net/doc/UG/xmlstarlet-ug.html
 
 
