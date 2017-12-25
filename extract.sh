@@ -3,9 +3,7 @@
 CANDIDATESITE=$1
 EXPORTFILE=$2  
  
-echo wget will try to download a sitemap file from $CANDIDATESITE
- 
-#curl https://www.sanalmarket.com.tr/robots.txt | grep ".*\.xml" | xargs wget
+echo wget will try to download a sitemap file from $CANDIDATESITE 
  
 curl $CANDIDATESITE/robots.txt | grep ".*\.xml" | xargs wget
  
